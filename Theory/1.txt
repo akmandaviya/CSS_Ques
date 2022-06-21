@@ -1,0 +1,30 @@
+-->> What are CSS Selectors ?
+CSS selectors are used to "find" (or select) the HTML elements we want to style.
+  (1) Simple selector==> based on id or class.
+  (2) Combination selector==> descendant selector (space) Ex: div (space) p
+                          ==> child selector (>) All the elements that are children f specified element Ex: div > page 
+                          ==> Adjacent sibling selector (+) An element that is directly adjacent to that element Ex: div + p
+                          ==> General sibling selector (-) All elements that are next siblings to that element Ex: div ~ p
+  (3) Psuedo-class selectors ==> A pseudo-class is used to define a special state of an element.
+                                Ex: mouse hover, visited, unvisited links.
+  (4) Psuedo-element selectors ==> A CSS pseudo-element is used to style specified parts of an element.
+                                  Ex: Style the first letter, or line, of an element.
+                                       Insert content before, or after, the content of an element.
+  (5) Attribute Selectors ==> To style HTML elements that have specific attributes or attribute values.
+  
+
+
+  -->> what is CSS position ?
+  The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+  Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the position property is set first. 
+  They also work differently depending on the position value.
+
+  -->> Translate in css ?
+  The translate() CSS function repositions an element in the horizontal and/or vertical directions. Its result is a <transform-function> data type.
+
+  -->> Calc() in CSS ?
+  It is an inbuilt CSS function which allows us to perform calculations. It can be used to calculate length, percentage, time, number, integer frequency, or angle.
+  It uses the four simple arithmetic operators add (+), multiply (*), subtract (-), and divide (/).
+  It is a powerful CSS concept because it allows us to mix any units, such as percentage and pixel.
+  Ex:  width: calc(150% - 75%);   
+       height: calc(350px - 75px);   
